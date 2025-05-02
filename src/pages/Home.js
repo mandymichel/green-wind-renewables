@@ -1,12 +1,13 @@
 import React from "react"
+import HeroSection from "../components/HeroSection"
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="page home">
-      <h1>Welcome to Green Wind and Renewables</h1>
-      <p>
-        Our mission is to power a cleaner future through sustainable energy.
-      </p>
+    <div>
+      <HeroSection />
+      {/* Additional content can go here */}
     </div>
   )
 }
+
+export default Home
