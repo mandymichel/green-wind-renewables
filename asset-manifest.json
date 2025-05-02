@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/green-wind-renewables/static/css/main.f8ac3163.css",
+    "main.js": "/green-wind-renewables/static/js/main.d8dfa181.js",
+    "static/js/453.6b6f5fdb.chunk.js": "/green-wind-renewables/static/js/453.6b6f5fdb.chunk.js",
+    "index.html": "/green-wind-renewables/index.html",
+    "main.f8ac3163.css.map": "/green-wind-renewables/static/css/main.f8ac3163.css.map",
+    "main.d8dfa181.js.map": "/green-wind-renewables/static/js/main.d8dfa181.js.map",
+    "453.6b6f5fdb.chunk.js.map": "/green-wind-renewables/static/js/453.6b6f5fdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ac3163.css",
+    "static/js/main.d8dfa181.js"
+  ]
+}
