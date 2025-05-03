@@ -1,0 +1,16 @@
+{
+  "ClientId": "6h74cadedecr3cj1ks27rhmt39",
+  "UserPoolId": "us-east-1_Y6i1z0v4c",
+  "SupportedIdentityProviders": ["COGNITO"],
+  "CallbackURLs": [
+    "http://localhost:3000",
+    "https://mandymichel.github.io/green-wind-renewables"
+  ],
+  "LogoutURLs": [
+    "http://localhost:3000",
+    "https://mandymichel.github.io/green-wind-renewables"
+  ],
+  "AllowedOAuthFlows": ["code"],
+  "AllowedOAuthScopes": ["email", "openid", "profile"],
+  "AllowedOAuthFlowsUserPoolClient": true
+}

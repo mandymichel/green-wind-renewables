@@ -8,6 +8,11 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen)
   const closeMenu = () => setIsOpen(false)
 
+  const CLIENT_ID = "6h74cadedecr3cj1ks27rhmt39"
+  const REDIRECT_URI = "https://mandymichel.github.io/green-wind-renewables"
+  const DOMAIN = "greenwind.auth.us-east-1.amazoncognito.com"
+  const loginUrl = `https://${DOMAIN}/login?client_id=${CLIENT_ID}&response_type=code&scope=email+openid+profile&redirect_uri=${REDIRECT_URI}`
+
   return (
     <nav className="navbar">
       <div className="logo">Green Wind & Renewables</div>
@@ -19,7 +24,7 @@ function Navbar() {
       </div>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
-          <NavLink to="/" onClick={closeMenu}>
+          <NavLink to="/green-wind-renewables" onClick={closeMenu}>
             Mission
           </NavLink>
         </li>
@@ -34,9 +39,9 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/login" onClick={closeMenu}>
+          <a href={loginUrl} className="text-blue-600 font-semibold">
             Login
-          </NavLink>
+          </a>
         </li>
         <li>
           <NavLink to="/newsletter" onClick={closeMenu}>
