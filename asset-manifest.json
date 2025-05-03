@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/green-wind-renewables/static/css/main.290c3e5c.css",
+    "main.css": "/green-wind-renewables/static/css/main.4dff9834.css",
     "main.js": "/green-wind-renewables/static/js/main.a2c270d2.js",
     "static/js/453.6b6f5fdb.chunk.js": "/green-wind-renewables/static/js/453.6b6f5fdb.chunk.js",
     "static/media/pexels-pixabay-414837.jpg": "/green-wind-renewables/static/media/pexels-pixabay-414837.fa5c962b26fbef5ac45f.jpg",
     "index.html": "/green-wind-renewables/index.html",
-    "main.290c3e5c.css.map": "/green-wind-renewables/static/css/main.290c3e5c.css.map",
+    "main.4dff9834.css.map": "/green-wind-renewables/static/css/main.4dff9834.css.map",
     "main.a2c270d2.js.map": "/green-wind-renewables/static/js/main.a2c270d2.js.map",
     "453.6b6f5fdb.chunk.js.map": "/green-wind-renewables/static/js/453.6b6f5fdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.290c3e5c.css",
+    "static/css/main.4dff9834.css",
     "static/js/main.a2c270d2.js"
   ]
 }
